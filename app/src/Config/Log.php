@@ -33,6 +33,6 @@ class Log
 
     private function getLogFileName()
     {
-        return TMPDIR . $this->name . '-' . date('Ymd') . '.log';
+        return LOGDIR . $this->name . '-' . date('Ymd') . '.log';
     }
 }
