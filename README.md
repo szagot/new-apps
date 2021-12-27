@@ -7,6 +7,8 @@ Dessa forma, a base da chamada será `{uri}/app/{servicos}`
 
 Você pode configurar isso em `configure.php` no campo `root`. Lembre de renomear a pasta também.
 
+***Obs:** Para um exemplo mais completo, veja o projeto [Phones 2.0 Backend](https://github.com/szagot/phones2-backend)*
+
 ---
 
 ## Mensagens de erro
