@@ -28,7 +28,7 @@ class Log
         $strType = str_pad($type, 7, ' ');
         $strDate = date('Y-m-d H:i:s');
         
-        file_put_contents($this->getLogFileName(), "{$strType} | {$strDate} | {$log}", FILE_APPEND);
+        file_put_contents($this->getLogFileName(), "{$strType} | {$strDate} | {$log}" . PHP_EOL, FILE_APPEND);
     }
 
     private function getLogFileName()
